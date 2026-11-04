@@ -20,8 +20,8 @@ spec:
     spec:
       containers:
         - name: churn-api
-          image: churn-api:dev
-          imagePullPolicy: Never
+          image: ghcr.io/andoreasuuu/mobil-churn-blob-mini:c5594861b069a91814d091aeaa9d30f14034bc71
+          imagePullPolicy: IfNotPresent
 
           ports:
             - containerPort: 8000
